@@ -1,0 +1,33 @@
+a.toc-title-project { color: rgb(134,0,0); }
+li.toctree-l1 { color : rgb(134,0,0); }
+a { color: rgb(134,0,0); }
+a.toc.current { color: rgb(134,0,0); }
+a.current { color: rgb(134,0,0); }
+a.current.reference.internal { color: rgb(16,28,62); }
+.btn-primary { background-color: rgb(16,28,62); }
+.btn-primary { border-color: rgb(16,28,62); }
+.btn-primary:hover { background-color: rgb(134,0,0); }
+.btn-primary:hover { border-color: rgb(134,0,0); }
+
+
+.iframe-box {
+    height: 0;
+    max-width: 100%;
+    overflow: hidden;
+    padding-bottom: 56.25%;  /* 16:9 */
+    padding-top: 35px;
+    position: relative;
+    position: relative;
+    width: 100%;
+}
+
+.iframe-box iframe {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top:0;
+    width: 100%;
+}
+.iframe-box-slideshare {
+    padding-bottom: 75.5%;  /* derived experimentally */
+}
